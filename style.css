@@ -1,0 +1,30 @@
+#gb {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(234, 20, 20);
+    bottom: 2%;
+}
+#givetext {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    font-weight: 600;
+    font-size: 120;
+}
+#baho {
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+}
+#re {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    top: 55%;
+}

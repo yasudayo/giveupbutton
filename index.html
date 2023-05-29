@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        scene {
+            width: 198vmin;
+            height: 175vmin;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <title>giveupbutton</title>
+    <div id="gb" onclick="push()"></div>
+    <div id="basho"></div>
+    <input type="button" value="リセット" id="re" onclick="reset()">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
